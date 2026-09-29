@@ -4,16 +4,17 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "AWFCGenerator.generated.h"
+#include "WFCDataTypes.h"
+#include "WFCGenerator.generated.h"
 
 UCLASS()
-class WFCPROJECT_API AAWFCGenerator : public AActor
+class WFCPROJECT_API AWFCGenerator : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AAWFCGenerator();
+	AWFCGenerator();
 
 protected:
 	// Called when the game starts or when spawned
